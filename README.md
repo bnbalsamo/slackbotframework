@@ -13,7 +13,7 @@ The project ships with a hello world implementation, which will cause the bot to
 In order to configure the bot, create an application within slack, include a bot user with the "mentions" scope, and then supply the required configuration variables to the application, which should be running at the URL you point the slack application at. After that, once the bot has been invited to the channel, it should start replying with "Hello World!"
 
 
-See the full documentation at https://slackbotframework.readthedocs.io
+See the full documentation at https://slack-bot-framework.readthedocs.io
 
 
 # Author
