@@ -1,6 +1,6 @@
 # Slack Bot Framework [![v0.0.1](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/bnbalsamo/slackbotframework/releases)
 
-[![Build Status](https://travis-ci.org/bnbalsamo/slackbotframework.svg?branch=master)](https://travis-ci.org/bnbalsamo/slackbotframework) [![Coverage Status](https://coveralls.io/repos/github/bnbalsamo/slackbotframework/badge.svg?branch=master)](https://coveralls.io/github/bnbalsamo/slackbotframework?branch=master) [![Documentation Status](https://readthedocs.org/projects/slackbotframework/badge/?version=latest)](http://slackbotframework.readthedocs.io/en/latest/?badge=latest)
+[![Build Status](https://travis-ci.org/bnbalsamo/slackbotframework.svg?branch=master)](https://travis-ci.org/bnbalsamo/slackbotframework) [![Coverage Status](https://coveralls.io/repos/github/bnbalsamo/slackbotframework/badge.svg?branch=master)](https://coveralls.io/github/bnbalsamo/slackbotframework?branch=master) [![Documentation Status](https://readthedocs.org/projects/slackbotframework/badge/?version=latest)](http://slack-bot-framework.readthedocs.io/en/latest/?badge=latest)
 
 A framework for building internal integration slack bots
 
