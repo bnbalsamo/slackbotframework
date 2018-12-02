@@ -1,0 +1,26 @@
+version: "2.0"
+services:
+    rabbit:
+        image: rabbitmq
+        restart: always
+    sbfweb:
+        build:
+            context: .
+        restart: always
+        environment:
+            SBF_SECRET_KEY: DontCommitThis
+            SBF_BOT_OAUTH_TOKEN: DontCommitThis
+            SBF_SIGNING_SECRET: DontCommitThis
+            SBF_CELERY_BROKER: pyamqp://guest@rabbit//
+        ports:
+            - 7654:80
+    sbfworker:
+        build:
+            context: .
+        restart: always
+        environment:
+            SBF_SECRET_KEY: DontCommitThis
+            SBF_BOT_OAUTH_TOKEN: DontCommitThis
+            SBF_SIGNING_SECRET: DontCommitThis
+            SBF_CELERY_BROKER: pyamqp://guest@rabbit//
+        command: celery -A slackbotframework.blueprint.celery worker 
